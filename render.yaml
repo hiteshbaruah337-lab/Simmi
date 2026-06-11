@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: spam-bot
+    runtime: python
+    repo: https://github.com/YOUR_USERNAME/YOUR_REPO
+    buildCommand: pip install -r requirements.txt
+    startCommand: python bot.py
+    envVars:
+      - key: API_ID
+        value: 39035274
+      - key: API_HASH
+        value: 6a0b24e16c4bea2bbc975b7dbb0c1e64
+      - key: BOT_TOKEN
+        value: 8931408596:AAH-7SkyKtohZqKPE8ixyEfCV04h_rXagc8
+      - key: OWNER_ID
+        value: 8722144519
