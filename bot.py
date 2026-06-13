@@ -39,7 +39,7 @@ if sys.version_info[0] == 3 and sys.version_info[1] >= 10:
 # =============== CONFIG ================
 API_ID = int(os.environ.get("API_ID", 38652766))
 API_HASH = os.environ.get("API_HASH", "45e99bc7cbfab2584e7cd5b94fe538d8")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "8931408596:AAH-7SkyKtohZqKPE8ixyEfCV04h_rXagc8")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8931408596:AAHtELcJQds1w7V1JCpiurjg5_3Ve_yyW2Y")
 OWNER_ID = int(os.environ.get("OWNER_ID", 8424396068))
 
 app = Client("spam_bot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
